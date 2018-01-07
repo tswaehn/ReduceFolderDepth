@@ -6,6 +6,7 @@
    * needed for my MP3 player - to have all *.mp3 files in a single folder for each artist 
    * (Without additional subfolders)
    */
+   $ver="1.1";
 
   // config
   $srcDir= "/media/big_boy/media/mp3";
@@ -17,7 +18,7 @@
   $logfile= "logfile-".$dateStr.".txt";
   
   // rewrite logfile
-  file_put_contents( $logfile ,  "---".date("r")."\n");    
+  file_put_contents( $logfile ,  "---".date("r")."\nVersion ".$ver."\n");    
   
   function out( $text ){
     global $logfile;
