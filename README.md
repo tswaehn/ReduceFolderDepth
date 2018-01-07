@@ -1,3 +1,4 @@
+
 <h3>ReduceFolderDepth</h3>
 This script moves all files of deeper folder structure to
 first level of folder structure.
